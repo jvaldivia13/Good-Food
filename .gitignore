@@ -1,0 +1,11 @@
+# Dependencias
+node_modules/
+
+# Datos de runtime (estado local, no subir)
+data/db.json
+/tmp/foodgood.pid
+/tmp/foodgood.log
+
+# Logs y sistema
+*.log
+.DS_Store

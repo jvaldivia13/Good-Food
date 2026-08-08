@@ -1,0 +1,15 @@
+{
+  "name": "food-good",
+  "version": "1.0.0",
+  "description": "Sistema web responsivo de comandas para restaurantes (prototipo)",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
